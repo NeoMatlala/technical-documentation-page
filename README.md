@@ -3,7 +3,7 @@
 created this 'technical documentation page' using
 HTML5 & CSS3
 
-### what I have learned
+## What I have learned
 New concepts I've learned on this project:
 -    the code element
 -   media queries
@@ -11,4 +11,4 @@ New concepts I've learned on this project:
 -    the main element
 -    the section element
 
-### Live link
+## Live link

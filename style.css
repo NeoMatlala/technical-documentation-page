@@ -47,7 +47,7 @@ body {
 }
 
 #container  #main-doc {
-    width: 100%;
+    width: auto;
     margin-left: 320px;
     padding: 10px;
 }
@@ -64,8 +64,43 @@ body {
     padding: 10px;
 }
 
-#container #main-doc code {
-    background: rgb(236, 224, 224);
-    margin-left: 20px;
+ul#two-step {
+    list-style-type: circle;
 }
 
+/*#container #main-doc code {
+    
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+}*/
+
+#code {
+    background: rgb(236, 224, 224);
+    margin-left: 20px;
+    width: 70%;
+    height: 70px;
+    padding: 10px;
+}
+
+label #btn, 
+label #cancel {
+    color: purple;
+    font-size: 40px;
+    /*float: left;*/
+    margin-left: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media all and (max-width: 1000px) {
+    
+    #container #navbar ul li a {
+        color: black
+    }
+    
+}

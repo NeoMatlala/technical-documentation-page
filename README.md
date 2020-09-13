@@ -12,3 +12,4 @@ New concepts I've learned on this project:
 -    the section element
 
 ## Live link
+https://neomatlala.github.io/technical-documentation-page/

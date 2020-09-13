@@ -1,7 +1,7 @@
 # TECHNICAL DOCUMENTATION PAGE
 
-created this 'technical documentation page' using
-HTML5 & CSS3
+Technical documentation page created using
+HTML5 & CSS3. The projet was part of freeCodeCamp's 'Responsive web design' online course.
 
 ## What I have learned
 New concepts I've learned on this project:

@@ -7,6 +7,10 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background: #fff;
 }
@@ -16,6 +20,7 @@ body {
     position: relative;
 }
 
+/*---------------------------------------------nav bar*/
 #container #navbar {
     position: fixed;
     width: 300px;
@@ -46,9 +51,11 @@ body {
     background: #594f8d;
 }
 
+/*--------------------------------------------content*/
+
 #container  #main-doc {
     width: auto;
-    margin-left: 320px;
+    margin-left: 300px;
     padding: 10px;
 }
 
@@ -68,13 +75,6 @@ ul#two-step {
     list-style-type: circle;
 }
 
-/*#container #main-doc code {
-    
-    margin-left: 20px;
-    width: 100px;
-    height: 100px;
-}*/
-
 #code {
     background: rgb(236, 224, 224);
     margin-left: 20px;
@@ -83,24 +83,33 @@ ul#two-step {
     padding: 10px;
 }
 
-label #btn, 
-label #cancel {
-    color: purple;
-    font-size: 40px;
-    /*float: left;*/
-    margin-left: 40px;
-    cursor: pointer;
+#main-heading {
     display: none;
 }
 
-#check {
-    display: none;
-}
 
-@media all and (max-width: 1000px) {
-    
-    #container #navbar ul li a {
-        color: black
+/*----------------------------------------media queries for tablet and lower screens*/
+
+@media all and (max-width: 768px) {
+
+    #main-heading{
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 40px;
+        background-color: #4b4276;
+        display: block;
     }
-    
+
+    #container #navbar {
+        width: 230px;
+        padding: 10px 0;
+        display: none;
+    }
+
+    #container  #main-doc {
+        margin-left: 0px;
+        padding: 20px;
+        width: 100%;
+    }
 }

@@ -112,4 +112,13 @@ ul#two-step {
         padding: 20px;
         width: 100%;
     }
+
+    #code {
+        /*background: rgb(236, 224, 224);
+        margin-left: 20px;*/
+        width: 100%;
+        height: auto;
+        padding: 5px;
+    }
+    
 }

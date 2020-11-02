@@ -79,7 +79,7 @@ ul#two-step {
     background: rgb(236, 224, 224);
     margin-left: 20px;
     width: 70%;
-    height: 70px;
+    height: auto;
     padding: 10px;
 }
 

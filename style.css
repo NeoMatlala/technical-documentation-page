@@ -88,7 +88,7 @@ ul#two-step {
 }
 
 
-/*----------------------------------------media queries for tablet and lower screens*/
+/*----------------------------------------media queries for tablets and smaller screens*/
 
 @media all and (max-width: 768px) {
 
@@ -114,9 +114,8 @@ ul#two-step {
     }
 
     #code {
-        /*background: rgb(236, 224, 224);
-        margin-left: 20px;*/
-        width: 100%;
+        /*background: rgb(236, 224, 224);*/
+        width: auto;
         height: auto;
         padding: 5px;
     }

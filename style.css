@@ -90,14 +90,60 @@ ul#two-step {
 
 /*----------------------------------------media queries for tablets and smaller screens*/
 
+/* iPad Pro 1024 (1024px and before iPad) */
+@media all and (max-width: 1024px) {
+
+    #main-doc h1{
+        font-size: 2rem;
+    }
+
+    #container #navbar {
+        width: 17rem;
+    }
+
+    #container  #main-doc {
+        margin-left: 18rem;
+    }
+
+    #container #main-doc p{
+        font-size: 1.5rem;
+    }
+
+    #container #main-doc li {
+        margin-left: 40px;
+        width: 80%;
+        font-size: 1.5rem;
+    }
+
+    #code {
+        width: auto;
+        height: auto;
+        padding: 5px;
+        margin-left: 15px;
+        width: 80%;
+        font-size: 1.4rem;
+    }
+
+    #container #navbar ul li{
+        font-size: 1.5rem;
+    }
+}
+
+
+/* iPad 768 (768px and before iPhone 6/7/8 Plus) */
 @media all and (max-width: 768px) {
 
-    #main-heading{
+    #main-doc h1{
+        font-size: 2rem;
+    }
+
+    #main-doc #main-heading{
         color: #fff;
         text-align: center;
         padding: 20px;
         margin-bottom: 40px;
         background-color: #4b4276;
+        font-size: 3rem;
         display: block;
     }
 
@@ -113,11 +159,244 @@ ul#two-step {
         width: 100%;
     }
 
+    #container #main-doc p{
+        font-size: 1.4rem;
+    }
+
+    #container #main-doc li {
+        margin-left: 40px;
+        width: 80%;
+        font-size: 1.4rem;
+    }
+
     #code {
-        /*background: rgb(236, 224, 224);*/
         width: auto;
         height: auto;
         padding: 5px;
+        margin-left: 15px;
+        width: 80%;
+        font-size: 1.3rem;
+    }
+}
+
+/* iPhone 6/7/8 Plus 414 (414px and Pixel 2 & Pixel 2 XL) */
+@media only screen and (max-width: 414px) {
+
+    #main-doc h1{
+        font-size: 1.6rem;
+        margin-bottom: -0.6rem;
+        width: 100%;
+    }
+
+    #main-doc #main-heading{
+        color: #fff;
+        padding: 15px;
+        margin-bottom: 20px;
+        font-size: 1.82rem;
+        width: 100%;
+    }
+
+    #container #main-doc p {
+        padding: 5px;
+        width: 95%;
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.3rem;
     }
     
+    #container #main-doc li {
+        margin-left: 35px;
+        width: 80%;
+        font-size: 1.2rem;
+    }
+
+    #code {
+        margin-left: 15px;
+        width: 90%;
+        font-size: 1.1rem;
+        padding: 10px;
+    }
+}
+
+/* Pixel 2 & Pixel 2 XL 411 (411px and iPhone 6/7/8/X ) */
+@media only screen and (max-width: 411px) {
+
+    #main-doc h1{
+        font-size: 1.6rem;
+        margin-bottom: -0.6rem;
+        width: 100%;
+    }
+
+    #main-doc #main-heading{
+        color: #fff;
+        padding: 15px;
+        margin-bottom: 20px;
+        font-size: 1.8rem;
+        width: 100%;
+    }
+
+    #container #main-doc p {
+        padding: 5px;
+        width: 95%;
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
+    }
+    
+    #container #main-doc li {
+        margin-left: 35px;
+        width: 80%;
+        font-size: 1.2rem;
+    }
+
+    #code {
+        margin-left: 15px;
+        width: 90%;
+        font-size: 1.1rem;
+        padding: 10px;
+    }
+}
+
+
+/* iPhone 6/7/8/X 375 (375px and Moto G4 & GalaxyS5 ) */
+@media only screen and (max-width: 375px) {
+
+    #main-doc h1{
+        font-size: 1.5rem;
+        margin-bottom: -0.6rem;
+        width: 100%;
+    }
+
+    #main-doc #main-heading{
+        color: #fff;
+        padding: 15px;
+        margin-bottom: 20px;
+        font-size: 1.6rem;
+        width: 100%;
+    }
+
+    #container #main-doc p {
+        padding: 5px;
+        width: 95%;
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    #container #main-doc li {
+        margin-left: 35px;
+        width: 80%;
+    }
+
+    #code {
+        margin-left: 15px;
+        width: 90%;
+        padding: 10px;
+    }
+}
+
+
+/* Moto G4 & GalaxyS5 360 (360px and iPhone 5/SE) */
+@media only screen and (max-width: 360px) {
+
+    #main-doc h1{
+        font-size: 1.3rem;
+        margin-bottom: -0.6rem;
+        width: 85%;
+    }
+
+    #main-doc #main-heading{
+        color: #fff;
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 1.6rem;
+        width: 95%;
+    }
+
+    #container #main-doc p {
+        padding: 0px;
+        width: 90%;
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    #container #main-doc li {
+        margin-left: 30px;
+        width: 80%;
+    }
+
+    #code {
+        margin-left: 15px;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+
+/* iPhone 5/SE 320 (320px and Galaxy Fold) */
+@media only screen and (max-width: 320px) {
+
+    #main-doc h1{
+        font-size: 1.3rem;
+        margin-bottom: -0.6rem;
+    }
+
+    #main-doc #main-heading{
+        color: #fff;
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    #container #main-doc p {
+        padding: 5px;
+        /*background-color: green;
+        */width: 90%;
+        font-size: 1.1rem;
+        
+    }
+    
+    #container #main-doc li {
+        margin-left: 30px;
+        width: 80%;
+        font-size: 1.1rem;
+    }
+
+    #code {
+        margin-left: 15px;
+        width: 70%;
+        padding: 10px;
+    }
+}
+
+
+/* Galaxy Fold (280px and down) */
+@media only screen and (max-width: 280px) {
+
+    #main-doc h1{
+        font-size: 1.2rem;
+        
+    }
+
+    #main-doc #main-heading{
+        color: #fff;
+        padding: 20px;
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    #container #main-doc p {
+        padding: 8px;
+    }
+
+    #container #navbar {
+        width: 230px;
+        padding: 10px 0;
+        display: none;
+    }
 }
